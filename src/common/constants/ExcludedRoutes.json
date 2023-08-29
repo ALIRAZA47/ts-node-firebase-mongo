@@ -1,0 +1,20 @@
+{
+  "authMiddleware": {
+    "GET": [
+      "/",
+      "/mgmt/info",
+      "/mgmt/metrics",
+      "/mgmt/health",
+      "/mgmt/ready"
+    ],
+    "POST": [
+      "/users/login",
+      "/users/is-username-taken",
+      "/payment/webhooks",
+      "/users/mail/password-reset"
+    ],
+    "PATCH": [
+      "/users/verify-email"
+    ]
+  }
+}
